@@ -206,6 +206,10 @@ ACCESSIBILITY
 Modify the block below if there are any barriers to accessibility or
 special instructions.
 {% endcomment %}
+
+{% comment %}
+Commented out accessibility paragraph on request from HIDA course management, because we cannot provide the support described there, and our course is online.
+
 <p id="accessibility">
   <strong>Accessibility:</strong>
   We are committed to making this workshop
@@ -227,6 +231,8 @@ special instructions.
   <a href="https://carpentries.typeform.com/to/B2OSYaD0">accommodation request form</a>.
   If you have questions or need assistance with the accommodation form please <a href="mailto:team@carpentries.org">email us</a>.
 </p>
+{% endcomment %}
+
 <p>
   <a href="https://glosario.carpentries.org/">Glosario</a> is a multilingual glossary
   for computing and data science terms. The glossary helps
@@ -343,6 +349,11 @@ We will use this <a href="{{ page.collaborative_notes }}">collaborative document
 {% comment %}
 SURVEYS - DO NOT EDIT SURVEY LINKS
 {% endcomment %}
+
+{% comment %}
+
+Commented out the Carpentries survey section, as the HIDA course uses its own HIDA surveys shared with course attendees during the course. Asking attendees to fill two different surveys would be too much to ask.
+
 <h2 id="surveys">Surveys</h2>
 <p>Please be sure to complete these surveys before and after the workshop.</p>
 {% if site.carpentry == "incubator" %}
@@ -361,6 +372,7 @@ change the value of `carpentry` to `incubator`.
 <p><a href="{{ site.pre_survey }}{{ site.github.project_title }}">Pre-workshop Survey</a></p>
 <p><a href="{{ site.post_survey }}{{ site.github.project_title }}">Post-workshop Survey</a></p>
 {% endif %}
+{% endcomment %}
 
 <hr/>
 
